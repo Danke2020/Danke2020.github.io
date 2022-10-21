@@ -3762,7 +3762,7 @@
         },
         "Aetheric Attunement Cell": {
             "name": "Aetheric Attunement Cell",
-            "nameT": "靈能調和 寶珠",
+            "nameT": "靈能調和",
             "slot": "Insight",
             "variants": {
                 "+1 Aetheric Attunement Cell": {
@@ -3887,7 +3887,7 @@
         },
         "Barbed Cell": {
             "name": "Barbed Cell",
-            "nameT": "歃血之怒 寶珠",
+            "nameT": "歃血之怒",
             "slot": "Finesse",
             "variants": {
                 "+1 Barbed Cell": {
@@ -3937,7 +3937,7 @@
         },
         "Bladestorm Cell": {
             "name": "Bladestorm Cell",
-            "nameT": "劍刃風暴寶珠",
+            "nameT": "劍刃風暴",
             "slot": "Brutality",
             "variants": {
                 "+1 Bladestorm Cell": {
@@ -4137,7 +4137,7 @@
         },
         "Endurance Cell": {
             "name": "Endurance Cell",
-            "nameT": "耐力",
+            "nameT": "戰鬥續行",
             "slot": "Alacrity",
             "variants": {
                 "+1 Endurance Cell": {
@@ -4237,7 +4237,7 @@
         },
         "Evasive Fury Cell": {
             "name": "Evasive Fury Cell",
-            "nameT": "回馬槍 寶珠",
+            "nameT": "回馬槍",
             "slot": "Alacrity",
             "variants": {
                 "+1 Evasive Fury Cell": {
@@ -4312,7 +4312,7 @@
         },
         "Fortress Cell": {
             "name": "Fortress Cell",
-            "nameT": "堅石壁壘 寶珠",
+            "nameT": "堅石壁壘",
             "slot": "Fortitude",
             "variants": {
                 "+1 Fortress Cell": {
@@ -5087,7 +5087,7 @@
         },
         "Swift Cell": {
             "name": "Swift Cell",
-            "nameT": "快速地",
+            "nameT": "臨戰姿態",
             "slot": "Alacrity",
             "variants": {
                 "+1 Swift Cell": {
@@ -5137,7 +5137,7 @@
         },
         "Tenacious Cell": {
             "name": "Tenacious Cell",
-            "nameT": "泰坦之握 寶珠",
+            "nameT": "泰坦之握",
             "slot": "Brutality",
             "variants": {
                 "+1 Tenacious Cell": {
@@ -5162,7 +5162,7 @@
         },
         "Tough Cell": {
             "name": "Tough Cell",
-            "nameT": "活力",
+            "nameT": "强健體魄",
             "slot": "Fortitude",
             "variants": {
                 "+1 Tough Cell": {
@@ -8366,6 +8366,10 @@
                         "Reduces duration of shocked status by {{percentShockedReduction}}%",
                         "Prevents knockback and damage when hitting electrified shields"
                     ],
+                    "descriptionT": [
+                        "麻痺奘態的持續時間減少 {{percentShockedReduction}}%",
+                        "免疫攻擊帶電護盾時的反沖僵直和傷害"
+                    ],
                     "values": {
                         "percentShockedReduction": 75
                     }
@@ -10503,6 +10507,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/BrawlersOfBoreus.png",
             "name": "Brawlers of Boreus",
+            "nameT": "凝骨",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -10532,7 +10537,7 @@
                     }
                 },
                 {
-                    "description": "After Surging, continually generate Frost Sprites for {{spriteLifeTime}} seconds that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -10554,6 +10559,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/BreakOfDawn.png",
             "name": "Break of Dawn",
+            "nameT": "破曉",
             "perks": [
                 {
                     "name": "Cunning",
@@ -10581,7 +10587,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -10601,6 +10607,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/BreakdownVoltage.png",
             "name": "Breakdown Voltage",
+            "nameT": "穿透電壓",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -10628,7 +10635,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "thunderdeepUeDescription",
                     "name": "HeadDamage",
                     "powerSurged": true,
                     "values": {
@@ -10648,6 +10655,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/BrutalityOfBoreus.png",
             "name": "Brutality of Boreus",
+            "nameT": "雪崩",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -10677,7 +10685,7 @@
                     }
                 },
                 {
-                    "description": "After spending ammo, generate generate {{spriteGenerate}} Frost Sprites that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -10699,6 +10707,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/CallOfDawn.png",
             "name": "Call of Dawn",
+            "nameT": "Why? As is so often the case in science, we must establish a baseline. A control group. And we do that with action in the field! So when you have the Call of Dawn in hand, find a <bold>Flameborn Rezakiri</>, and... I believe the term I've heard Trainer Rosk use is \"really lay into that bad boy.\"",
             "perks": [
                 {
                     "name": "Cunning",
@@ -10726,7 +10735,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -10746,6 +10755,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/CallOfTheFirebird.png",
             "name": "Call of the Firebird",
+            "nameT": "浴火斧",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -10776,7 +10786,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -10802,6 +10812,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/ChaosAndEntropy.png",
             "name": "Chaos & Entropy",
+            "nameT": "破空之殤",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -10830,6 +10841,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredBlades.png",
             "name": "Charred Blades",
+            "nameT": "縛火",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -10858,7 +10870,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -10879,6 +10891,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredCleaver.png",
             "name": "Charred Cleaver",
+            "nameT": "斷焰",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -10907,7 +10920,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -10928,6 +10941,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredCrusher.png",
             "name": "Charred Crusher",
+            "nameT": "薄炎",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -10956,7 +10970,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -10977,6 +10991,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredHands.png",
             "name": "Charred Hands",
+            "nameT": "炎爆",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -11005,7 +11020,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -11026,6 +11041,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredPistols.png",
             "name": "Charred Pistols",
+            "nameT": "炎爆",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -11054,7 +11070,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -11075,6 +11091,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredSaber.png",
             "name": "Charred Saber",
+            "nameT": "熾烈",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -11103,7 +11120,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -11124,6 +11141,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/CharredSpear.png",
             "name": "Charred Spear",
+            "nameT": "薪火",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -11152,7 +11170,7 @@
                     }
                 },
                 {
-                    "description": "After spending {{stamina}} stamina, next attack emits a cone of flame that deals +{{blazeDamage}} blaze damage to each unique target within the cone",
+                    "description": "charrogUeDescription",
                     "name": "CharrogSpentStaminaFireDamage",
                     "powerSurged": true,
                     "values": {
@@ -11173,6 +11191,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/CircuitBreakers.png",
             "name": "Circuit Breakers",
+            "nameT": "電路斷載",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -11200,7 +11219,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "thunderdeepUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -11252,6 +11271,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/CryOfTheShrike.png",
             "name": "Cry of the Shrike",
+            "nameT": "伯勞鳥之劍",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -11279,7 +11299,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -11360,6 +11380,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/Dawnstars.png",
             "name": "Dawnstars",
+            "nameT": "晨星",
             "perks": [
                 {
                     "name": "Cunning",
@@ -11387,7 +11408,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -11436,6 +11457,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/DestinyOfBoreus.png",
             "name": "Destiny of Boreus",
+            "nameT": "飛霜",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -11465,7 +11487,7 @@
                     }
                 },
                 {
-                    "description": "After spending ammo, generate generate {{spriteGenerate}} Frost Sprites that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -11516,6 +11538,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/EdgeOfDawn.png",
             "name": "Edge of Dawn",
+            "nameT": "聖衛",
             "perks": [
                 {
                     "name": "Cunning",
@@ -11543,7 +11566,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -11566,6 +11589,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/EdgeOfTomorrow.png",
             "name": "Edge of Tomorrow",
+            "nameT": "破空長刃",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -11652,6 +11676,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberBlades.png",
             "name": "Ember Blades",
+            "nameT": "完整的謠言：掠食寄生蟲 (II)（需要武器：餘燼之刃 才能解鎖）",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11680,7 +11705,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in quick succession deals +{{bonusDamage}} bonus part damage.",
+                    "description": "embermaneUeDescription",
                     "name": "HitBonusDamage",
                     "powerSurged": true,
                     "values": {
@@ -11701,6 +11726,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberCutlass.png",
             "name": "Ember Cutlass",
+            "nameT": "血之焰",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11729,7 +11755,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in a row deals +{{bonusDamage}}% part damage",
+                    "description": "embermaneUeDescription",
                     "name": "HitPartDamage",
                     "powerSurged": true,
                     "values": {
@@ -11750,6 +11776,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberFists.png",
             "name": "Ember Fists",
+            "nameT": "血之燼",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11778,7 +11805,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in a row deals +{{bonusDamage}}% stagger damage",
+                    "description": "embermaneUeDescription",
                     "name": "HitStaggerDamage",
                     "powerSurged": true,
                     "values": {
@@ -11799,6 +11826,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberMaul.png",
             "name": "Ember Maul",
+            "nameT": "血之沸",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11827,7 +11855,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in a row deals +{{bonusDamage}}% stagger damage",
+                    "description": "embermaneUeDescription",
                     "name": "HitStaggerDamage",
                     "powerSurged": true,
                     "values": {
@@ -11848,6 +11876,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberPike.png",
             "name": "Ember Pike",
+            "nameT": "血之涌",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11876,7 +11905,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in a row deals +{{bonusDamage}} wound damage",
+                    "description": "embermaneUeDescription",
                     "name": "HitWoundDamage",
                     "powerSurged": true,
                     "values": {
@@ -11897,6 +11926,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberScythe.png",
             "name": "Ember Scythe",
+            "nameT": "血之斷",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11925,7 +11955,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}rd hit in quick succession deals +{{bonusDamage}} bonus part damage.",
+                    "description": "embermaneUeDescription",
                     "name": "HitBonusDamage",
                     "powerSurged": true,
                     "values": {
@@ -11946,6 +11976,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/embermane/EmberShots.png",
             "name": "Ember Shots",
+            "nameT": "焦灼",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -11974,7 +12005,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitSuccession}}th hit in row deals +{{bonusDamage}} part damage.",
+                    "description": "embermaneUeDescription",
                     "name": "HitBonusDamagePercent",
                     "powerSurged": true,
                     "values": {
@@ -11998,6 +12029,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/ExistentialCrisis.png",
             "name": "Existential Crisis",
+            "nameT": "破空流光",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -12026,6 +12058,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/EyesOfNight.png",
             "name": "Eyes of Night",
+            "nameT": "夜之瞳",
             "perks": [
                 {
                     "name": "Cunning",
@@ -12065,6 +12098,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/EyesOfTheFirebird.png",
             "name": "Eyes of the Firebird",
+            "nameT": "火眼",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -12095,7 +12129,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -12118,6 +12152,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/FallOfNight.png",
             "name": "Fall of Night",
+            "nameT": "墮夜",
             "perks": [
                 {
                     "name": "Cunning",
@@ -12157,6 +12192,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/FallOfTheShrike.png",
             "name": "Fall of the Shrike",
+            "nameT": "伯勞鳥之錘",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -12184,7 +12220,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -12204,6 +12240,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/FangsOfDawn.png",
             "name": "Fangs of Dawn",
+            "nameT": "審判官",
             "perks": [
                 {
                     "name": "Cunning",
@@ -12231,7 +12268,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -12251,6 +12288,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/FateOfTheFirebird.png",
             "name": "Fate of the Firebird",
+            "nameT": "火尖槍",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -12281,7 +12319,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -12304,6 +12342,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsBlade.png",
             "name": "Fenroar's Blade",
+            "nameT": "怒吼之刃",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12333,7 +12372,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12355,6 +12394,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsBranch.png",
             "name": "Fenroar's Branch",
+            "nameT": "怒吼枝椏",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12384,7 +12424,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12406,6 +12446,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsRoots.png",
             "name": "Fenroar's Roots",
+            "nameT": "怒吼之根",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12435,7 +12476,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12457,6 +12498,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsSpine.png",
             "name": "Fenroar's Spine",
+            "nameT": "芬羅之脊",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12486,7 +12528,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12508,6 +12550,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsThistles.png",
             "name": "Fenroar's Thistles",
+            "nameT": "怒吼之薊",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12537,7 +12580,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12559,6 +12602,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsThorns.png",
             "name": "Fenroar's Thorns",
+            "nameT": "怒吼荊棘",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12588,7 +12632,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12610,6 +12654,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/fenroar/FenroarsTrunk.png",
             "name": "Fenroar's Trunk",
+            "nameT": "怒吼軀幹",
             "perks": [
                 {
                     "name": "Parasitic",
@@ -12639,7 +12684,7 @@
                     }
                 },
                 {
-                    "description": "On jumping, create a platform of stone in the air ahead of you that lasts for up to {{platformTime}} seconds. Up to {{numberJumps}} jumps in a row can be performed before ability must be recharged. Activating Lantern refreshes the {{numberJumps}} jumps. Shortly after forming, the platform falls, dealing {{fallDamage}} Terra damage, and interrupting behemoths.",
+                    "description": "fenroarUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -12661,6 +12706,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/FistsOfTheFirebird.png",
             "name": "Fists of the Firebird",
+            "nameT": "烈陽拳",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -12691,7 +12737,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -12714,6 +12760,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/FistsOfTheShrike.png",
             "name": "Fists of the Shrike",
+            "nameT": "伯勞鳥之拳",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -12741,7 +12788,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -12761,6 +12808,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/FlightOfTheShrike.png",
             "name": "Flight of the Shrike",
+            "nameT": "伯勞鳥之鐮",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -12788,7 +12836,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -12837,6 +12885,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsBite.png",
             "name": "Frostwülf's Bite",
+            "nameT": "狼牙劍",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -12867,7 +12916,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -12890,6 +12939,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsChillers.png",
             "name": "Frostwülf's Chillers",
+            "nameT": "急凍",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -12920,7 +12970,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -12943,6 +12993,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsChomp.png",
             "name": "Frostwülf's Chomp",
+            "nameT": "狼牙斧",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -12973,7 +13024,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -12996,6 +13047,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsRip.png",
             "name": "Frostwülf's Rip",
+            "nameT": "狼牙矛",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -13026,7 +13078,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -13049,6 +13101,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsSkinners.png",
             "name": "Frostwülf's Skinners",
+            "nameT": "狼牙鐮",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -13079,7 +13132,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -13102,6 +13155,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsSlam.png",
             "name": "Frostwülf's Slam",
+            "nameT": "狼牙棒",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -13132,7 +13186,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -13155,6 +13209,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/frostwulf/FrostwulfsTacklers.png",
             "name": "Frostwülf's Tacklers",
+            "nameT": "擒拿手",
             "perks": [
                 {
                     "name": "Galvanized",
@@ -13185,7 +13240,7 @@
                     }
                 },
                 {
-                    "description": "After using your Lantern ability, create a geyser that frequently deals {{frostDamage}} frost damage. Any Slayer moving through the geyser for the first time is granted a stackable {{health}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "frostwulfUeDescription",
                     "name": "LanternsMakeGeyser",
                     "powerSurged": true,
                     "values": {
@@ -13208,6 +13263,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/FuriesOfTheNight.png",
             "name": "Furies of the Night",
+            "nameT": "暮光",
             "perks": [
                 {
                     "name": "Cunning",
@@ -13276,6 +13332,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverAxe.png",
             "name": "Glyph Weaver Axe",
+            "nameT": "雕文編織者之斧",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13318,6 +13375,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverBlades.png",
             "name": "Glyph Weaver Blades",
+            "nameT": "雕文編織者之鐮",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13360,6 +13418,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverClaws.png",
             "name": "Glyph Weaver Claws",
+            "nameT": "雕文編織者之爪",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13402,6 +13461,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverEdge.png",
             "name": "Glyph Weaver Edge",
+            "nameT": "雕文編織者之刃",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13444,6 +13504,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverMaul.png",
             "name": "Glyph Weaver Maul",
+            "nameT": "雕文編織者之槌",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13486,6 +13547,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverPistols.png",
             "name": "Glyph Weaver Pistols",
+            "nameT": "雕文編織者之槍",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13528,6 +13590,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/alyra/GlyphWeaverSpear.png",
             "name": "Glyph Weaver Spear",
+            "nameT": "雕文編織者之矛",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -13570,6 +13633,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/GyreOfNight.png",
             "name": "Gyre of Night",
+            "nameT": "夜之迴轉",
             "perks": [
                 {
                     "name": "Cunning",
@@ -13609,6 +13673,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/HandsOfDawn.png",
             "name": "Hands of Dawn",
+            "nameT": "佛光",
             "perks": [
                 {
                     "name": "Cunning",
@@ -13636,7 +13701,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -13656,6 +13721,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/HandsOfNight.png",
             "name": "Hands of Night",
+            "nameT": "夜之魘",
             "perks": [
                 {
                     "name": "Cunning",
@@ -13698,6 +13764,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/HistorysBurden.png",
             "name": "History's Burden",
+            "nameT": "破空重錘",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -13824,6 +13891,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosArrow.png",
             "name": "Inferno's Arrow",
+            "nameT": "永火戰將",
             "perks": [
                 {
                     "name": "Overpower",
@@ -13852,7 +13920,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -13873,6 +13941,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosBurden.png",
             "name": "Inferno's Burden",
+            "nameT": "永火暴徒",
             "perks": [
                 {
                     "name": "Overpower",
@@ -13901,7 +13970,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -13922,6 +13991,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosDecree.png",
             "name": "Inferno's Decree",
+            "nameT": "永火屠夫",
             "perks": [
                 {
                     "name": "Overpower",
@@ -13950,7 +14020,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -13971,6 +14041,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosFangs.png",
             "name": "Inferno's Fangs",
+            "nameT": "永火守衛",
             "perks": [
                 {
                     "name": "Overpower",
@@ -13999,7 +14070,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -14020,6 +14091,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosFlames.png",
             "name": "Inferno's Flames",
+            "nameT": "永火鬥士",
             "perks": [
                 {
                     "name": "Overpower",
@@ -14048,7 +14120,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -14069,6 +14141,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosRazor.png",
             "name": "Inferno's Razor",
+            "nameT": "永火騎士",
             "perks": [
                 {
                     "name": "Overpower",
@@ -14097,7 +14170,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -14118,6 +14191,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/hellion/InfernosRoar.png",
             "name": "Inferno's Roar",
+            "nameT": "獄火",
             "perks": [
                 {
                     "name": "Overpower",
@@ -14146,7 +14220,7 @@
                     }
                 },
                 {
-                    "description": "The {{hitCount}}th hit in a row deals +{{damage}} damage and major blaze damage",
+                    "description": "hellionUeDescription",
                     "name": "BlazeDamageOnNthHit",
                     "powerSurged": true,
                     "values": {
@@ -14167,6 +14241,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/InversePolarity.png",
             "name": "Inverse Polarity",
+            "nameT": "逆向電極",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -14194,7 +14269,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "thunderdeepUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -14214,6 +14289,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksClaw.png",
             "name": "Kharabak's Claw",
+            "nameT": "風之摧",
             "perks": [
                 {
                     "name": "Deconstruction",
@@ -14241,7 +14317,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14261,6 +14337,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksJaw.png",
             "name": "Kharabak's Jaw",
+            "nameT": "風之吼",
             "perks": [
                 {
                     "name": "Deconstruction",
@@ -14288,7 +14365,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14308,6 +14385,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksLights.png",
             "name": "Kharabak's Lights",
+            "nameT": "初源",
             "perks": [
                 {
                     "name": "Bladestorm",
@@ -14335,7 +14413,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14355,6 +14433,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksPincers.png",
             "name": "Kharabak's Pincers",
+            "nameT": "風之惶",
             "perks": [
                 {
                     "name": "Bladestorm",
@@ -14382,7 +14461,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14402,6 +14481,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksSpur.png",
             "name": "Kharabak's Spur",
+            "nameT": "風之裁",
             "perks": [
                 {
                     "name": "Bladestorm",
@@ -14429,7 +14509,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14449,6 +14529,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksSting.png",
             "name": "Kharabak's Sting",
+            "nameT": "風之嘶",
             "perks": [
                 {
                     "name": "Bladestorm",
@@ -14476,7 +14557,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14496,6 +14577,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/kharabak/KharabaksWings.png",
             "name": "Kharabak's Wings",
+            "nameT": "風之翼",
             "perks": [
                 {
                     "name": "Bladestorm",
@@ -14523,7 +14605,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack unleashes whirling blades that deal {{damage}} terra damage. Additional attacks speed up the blades, which explode at the end of the duration and deal damage based on blade speed.",
+                    "description": "kharabakUeDescription",
                     "name": "KharabacBlades",
                     "powerSurged": true,
                     "values": {
@@ -14609,6 +14691,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/MillenniumsEnd.png",
             "name": "Millennium's End",
+            "nameT": "破空戰歾",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -14695,6 +14778,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/charrogg/MoltenEdict.png",
             "name": "Molten Edict",
+            "nameT": "熔火法令靈能猛擊",
             "perks": [
                 {
                     "name": "Berserker",
@@ -14733,6 +14817,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasCharge.png",
             "name": "Nayzaga's Charge",
+            "nameT": "雷獸凶目",
             "perks": [
                 {
                     "name": "Savagery",
@@ -14760,7 +14845,7 @@
                     }
                 },
                 {
-                    "description": "After a Behemoth is staggered, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "StaggerHeal",
                     "powerSurged": true,
                     "values": {
@@ -14780,6 +14865,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasFang.png",
             "name": "Nayzaga's Fang",
+            "nameT": "驚雷利矛",
             "perks": [
                 {
                     "name": "Barbed",
@@ -14807,7 +14893,7 @@
                     }
                 },
                 {
-                    "description": "+{{heal}}% lifesteal vs wounded parts",
+                    "description": "nayzagaUeDescription",
                     "name": "WoundedPartsLifesteal",
                     "powerSurged": true,
                     "values": {
@@ -14827,6 +14913,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasRazor.png",
             "name": "Nayzaga's Razor",
+            "nameT": "雷牙剪",
             "perks": [
                 {
                     "name": "Barbed",
@@ -14854,7 +14941,7 @@
                     }
                 },
                 {
-                    "description": "When Behemoth part is broken, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "WoundedPartsLifesteal",
                     "powerSurged": true,
                     "values": {
@@ -14874,6 +14961,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasReach.png",
             "name": "Nayzaga's Reach",
+            "nameT": "雷霆利牙",
             "perks": [
                 {
                     "name": "Barbed",
@@ -14901,7 +14989,7 @@
                     }
                 },
                 {
-                    "description": "When Behemoth part is broken, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "WoundedPartsLifesteal",
                     "powerSurged": true,
                     "values": {
@@ -14921,6 +15009,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasScythe.png",
             "name": "Nayzaga's Scythe",
+            "nameT": "轟雷巨斧",
             "perks": [
                 {
                     "name": "Savagery",
@@ -14948,7 +15037,7 @@
                     }
                 },
                 {
-                    "description": "After landing perfectly charged attacks, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "VerticalAttackHeal",
                     "powerSurged": true,
                     "values": {
@@ -14968,6 +15057,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasShockers.png",
             "name": "Nayzaga's Shockers",
+            "nameT": "雷鳴拳套",
             "perks": [
                 {
                     "name": "Savagery",
@@ -14995,7 +15085,7 @@
                     }
                 },
                 {
-                    "description": "After a Behemoth is staggered, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "StaggerHeal",
                     "powerSurged": true,
                     "values": {
@@ -15015,6 +15105,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/nayzaga/NayzagasSpikes.png",
             "name": "Nayzaga's Spikes",
+            "nameT": "電刺",
             "perks": [
                 {
                     "name": "Savagery",
@@ -15042,7 +15133,7 @@
                     }
                 },
                 {
-                    "description": "When you fire the last shot in your magazine, heal for {{heal}}",
+                    "description": "nayzagaUeDescription",
                     "name": "StaggerHeal",
                     "powerSurged": true,
                     "values": {
@@ -15091,6 +15182,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/OnusOfBoreus.png",
             "name": "Onus of Boreus",
+            "nameT": "霜寒",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -15119,7 +15211,7 @@
                     }
                 },
                 {
-                    "description": "Using your special continually generates Frost Sprites that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -15140,6 +15232,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsCall.png",
             "name": "Pangar's Call",
+            "nameT": "霜風",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -15170,7 +15263,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15193,6 +15286,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsClaws.png",
             "name": "Pangar's Claws",
+            "nameT": "舞雪",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -15223,7 +15317,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15246,6 +15340,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsGrace.png",
             "name": "Pangar's Grace",
+            "nameT": "堅冰",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -15276,7 +15371,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15299,6 +15394,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsNightmares.png",
             "name": "Pangar's Nightmares",
+            "nameT": "暴雪",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -15329,7 +15425,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15352,6 +15448,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsPunishers.png",
             "name": "Pangar's Punishers",
+            "nameT": "凍土",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -15382,7 +15479,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15405,6 +15502,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsRampage.png",
             "name": "Pangar's Rampage",
+            "nameT": "落雹",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -15435,7 +15533,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15458,6 +15556,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/pangar/PangarsTooth.png",
             "name": "Pangar's Tooth",
+            "nameT": "錐尺",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -15488,7 +15587,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack places a frost brand that deals {{damage}} frost damage after {{time}} seconds. Slayers\ncan destroy the brand, prematurely detonating it for {{damagePrematurely}}% increased damage. Charges every {{cooldown}} seconds.",
+                    "description": "pangarUeDescription",
                     "name": "PangarBomb",
                     "powerSurged": true,
                     "values": {
@@ -15635,6 +15734,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsBonehooks.png",
             "name": "Quillshot's Bonehooks",
+            "nameT": "切割者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15664,6 +15764,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsFury.png",
             "name": "Quillshot's Fury",
+            "nameT": "行刑者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15693,6 +15794,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsJavelin.png",
             "name": "Quillshot's Javelin",
+            "nameT": "處決者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15722,6 +15824,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsRoar.png",
             "name": "Quillshot's Roar",
+            "nameT": "粉碎者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15751,6 +15854,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsShredders.png",
             "name": "Quillshot's Shredders",
+            "nameT": "毆打者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15780,6 +15884,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsStingers.png",
             "name": "Quillshot's Stingers",
+            "nameT": "使用巨獸素材製作一對連發銃",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15809,6 +15914,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/quillshot/QuillshotsTusk.png",
             "name": "Quillshot's Tusk",
+            "nameT": "施虐者",
             "perks": [
                 {
                     "name": "Acidic",
@@ -15838,6 +15944,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/RageOfTheFirebird.png",
             "name": "Rage of the Firebird",
+            "nameT": "落日錘",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -15868,7 +15975,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -15891,6 +15998,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingBite.png",
             "name": "Raging Bite",
+            "nameT": "狂暴之咬",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -15918,7 +16026,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -15938,6 +16046,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingBlade.png",
             "name": "Raging Blade",
+            "nameT": "狂暴之刃",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -15965,7 +16074,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -15985,6 +16094,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingCrash.png",
             "name": "Raging Crash",
+            "nameT": "狂暴崩潰",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -16012,7 +16122,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -16032,6 +16142,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingCruelty.png",
             "name": "Raging Cruelty",
+            "nameT": "狂暴殘酷",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -16059,7 +16170,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -16079,6 +16190,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingFists.png",
             "name": "Raging Fists",
+            "nameT": "狂怒之拳",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -16106,7 +16218,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -16126,6 +16238,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingRepeaters.png",
             "name": "Raging Repeaters",
+            "nameT": "狂怒",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -16153,7 +16266,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -16173,6 +16286,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/gnasher/RagingTeeth.png",
             "name": "Raging Teeth",
+            "nameT": "狂暴之牙",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -16200,7 +16314,7 @@
                     }
                 },
                 {
-                    "description": "Periodically enter a rage, dealing +{{damage}}% damage and gaining immunity to stagger. Taking damage causes you to enrage more quickly.",
+                    "description": "gnasherUeDescription",
                     "name": "GnasherRage",
                     "powerSurged": true,
                     "values": {
@@ -16220,6 +16334,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/ReaperOfNight.png",
             "name": "Reaper of Night",
+            "nameT": "夜之死神",
             "perks": [
                 {
                     "name": "Cunning",
@@ -16255,6 +16370,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsAxe.png",
             "name": "Recruit's Axe",
+            "nameT": "新兵獵斧",
             "power": {
                 "base": 10
             },
@@ -16267,6 +16383,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsChainBlades.png",
             "name": "Recruit's Chain Blades",
+            "nameT": "新兵鎖鐮",
             "power": {
                 "base": 10
             },
@@ -16279,6 +16396,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsHammer.png",
             "name": "Recruit's Hammer",
+            "nameT": "新兵炮錘",
             "power": {
                 "base": 10
             },
@@ -16291,6 +16409,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsRepeaters.png",
             "name": "Recruit's Repeaters",
+            "nameT": "新兵連發銃",
             "power": {
                 "base": 10
             },
@@ -16303,6 +16422,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsStrikers.png",
             "name": "Recruit's Strikers",
+            "nameT": "新兵拳套",
             "power": {
                 "base": 10
             },
@@ -16315,6 +16435,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsSword.png",
             "name": "Recruit's Sword",
+            "nameT": "新兵長劍",
             "power": {
                 "base": 10
             },
@@ -16327,6 +16448,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/RecruitsWarPike.png",
             "name": "Recruit's War Pike",
+            "nameT": "新兵戰矛",
             "power": {
                 "base": 10
             },
@@ -16343,6 +16465,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/RevolutionOfBoreus.png",
             "name": "Revolution of Boreus",
+            "nameT": "寒芒",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -16372,7 +16495,7 @@
                     }
                 },
                 {
-                    "description": "Storing or spending ammo continually generates Frost Sprites for {{spriteLifeTime}} seconds that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -16394,6 +16517,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsAvengers.png",
             "name": "Sahvyt's Avengers",
+            "nameT": "復仇",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16421,7 +16545,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16441,6 +16565,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsCleaver.png",
             "name": "Sahvyt's Cleaver",
+            "nameT": "月牙鏟",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16468,7 +16593,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16488,6 +16613,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsCutlass.png",
             "name": "Sahvyt's Cutlass",
+            "nameT": "唐刀",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16515,7 +16641,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16535,6 +16661,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsGrapplers.png",
             "name": "Sahvyt's Grapplers",
+            "nameT": "螳螂拳",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16562,7 +16689,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16582,6 +16709,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsJavelin.png",
             "name": "Sahvyt's Javelin",
+            "nameT": "風雷戟",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16609,7 +16737,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16629,6 +16757,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsMaul.png",
             "name": "Sahvyt's Maul",
+            "nameT": "甕金鎚",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16656,7 +16785,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16676,6 +16805,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/sahvyt/SahvytsPincers.png",
             "name": "Sahvyt's Pincers",
+            "nameT": "雙馳電刃",
             "perks": [
                 {
                     "name": "Pulse",
@@ -16703,7 +16833,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next weapon swing/shot unleashes a boomerang projectile that frequently deals {{damage}} shock damage to any target hit. Dodging through an attack reduces charge cooldown.",
+                    "description": "sahvytUeDescription",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16786,6 +16916,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/ScreamOfTheShrike.png",
             "name": "Scream of the Shrike",
+            "nameT": "伯勞鳥之矛",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -16813,7 +16944,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -16833,6 +16964,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/ScreamsOfTheShrike.png",
             "name": "Screams of the Shrike",
+            "nameT": "鷹眼",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -16860,7 +16992,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -16880,6 +17012,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/ShriekOfTheFirebird.png",
             "name": "Shriek of the Firebird",
+            "nameT": "赤焰劍",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -16910,7 +17043,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -16933,6 +17066,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsCalamities.png",
             "name": "Skarn's Calamities",
+            "nameT": "石心",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -16962,7 +17096,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -16984,6 +17118,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsJudgment.png",
             "name": "Skarn's Judgment",
+            "nameT": "磐岩之裁",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -17013,7 +17148,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17035,6 +17170,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsMalice.png",
             "name": "Skarn's Malice",
+            "nameT": "磐岩之惡",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -17064,7 +17200,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17086,6 +17222,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsRancor.png",
             "name": "Skarn's Rancor",
+            "nameT": "磐岩之怨",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -17115,7 +17252,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17137,6 +17274,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsSmashers.png",
             "name": "Skarn's Smashers",
+            "nameT": "磐岩之擊",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -17166,7 +17304,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17188,6 +17326,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsSpite.png",
             "name": "Skarn's Spite",
+            "nameT": "磐岩之咬",
             "perks": [
                 {
                     "name": "Weighted Strikes",
@@ -17217,7 +17356,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17239,6 +17378,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/skarn/SkarnsVengeance.png",
             "name": "Skarn's Vengeance",
+            "nameT": "磐岩之復",
             "perks": [
                 {
                     "name": "Knockout King",
@@ -17268,7 +17408,7 @@
                     }
                 },
                 {
-                    "description": "After using your lantern ability, grant a stackable {{shield}} health shield that lasts for {{shieldTime}} seconds (max {{shieldMax}} shields).",
+                    "description": "skarnUeDescription",
                     "name": "DamageChanceStackShield",
                     "powerSurged": true,
                     "values": {
@@ -17290,6 +17430,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/SolidState.png",
             "name": "Solid State",
+            "nameT": "固態雷電",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -17317,7 +17458,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "thunderdeepUeDescription",
                     "name": "HeadDamage",
                     "powerSurged": true,
                     "values": {
@@ -17337,6 +17478,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/shrike/SongOfTheShrike.png",
             "name": "Song of the Shrike",
+            "nameT": "伯勞鳥之斧",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -17364,7 +17506,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, your next attack deals +{{damage}} bonus damage and part damage",
+                    "description": "shrikeUeDescription",
                     "name": "DodgePartDamage",
                     "powerSurged": true,
                     "values": {
@@ -17384,6 +17526,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsDecrees.png",
             "name": "Sovereign's Decrees",
+            "nameT": "君令",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17413,7 +17556,7 @@
                     }
                 },
                 {
-                    "description": "After not dealing damage for {{cooldownTime}} seconds, your next {{hits}} attacks deal +{{damage}}% damage",
+                    "description": "koshaiUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -17435,6 +17578,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsGrudge.png",
             "name": "Sovereign's Grudge",
+            "nameT": "君主之怨",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17485,6 +17629,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsLash.png",
             "name": "Sovereign's Lash",
+            "nameT": "君主之傲",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17514,7 +17659,7 @@
                     }
                 },
                 {
-                    "description": "After not dealing damage for {{cooldownTime}} seconds, your next {{hits}} attacks deal +{{damage}}% damage",
+                    "description": "koshaiUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -17536,6 +17681,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsSceptres.png",
             "name": "Sovereign's Sceptres",
+            "nameT": "使用君主之權對暗影棘魔造成250K傷害",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17565,7 +17711,7 @@
                     }
                 },
                 {
-                    "description": "After not dealing damage for {{cooldownTime}} seconds, your next {{hits}} attacks deal +{{damage}}% damage",
+                    "description": "koshaiUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -17587,6 +17733,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsSorrow.png",
             "name": "Sovereign's Sorrow",
+            "nameT": "君主之傷",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17616,7 +17763,7 @@
                     }
                 },
                 {
-                    "description": "After not dealing damage for {{cooldownTime}} seconds, your next {{hits}} attacks deal +{{damage}}% damage",
+                    "description": "koshaiUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -17638,6 +17785,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsTorment.png",
             "name": "Sovereign's Torment",
+            "nameT": "君主之痛",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17667,7 +17815,7 @@
                     }
                 },
                 {
-                    "description": "After not dealing damage for {{cooldownTime}} seconds, your next {{hits}} attacks deal +{{damage}}% damage",
+                    "description": "koshaiUeDescription",
                     "name": "NoAttackDamage",
                     "powerSurged": true,
                     "values": {
@@ -17689,6 +17837,7 @@
             "elemental": "Terra",
             "icon": "/assets/icons/weapons/koshai/SovereignsWrath.png",
             "name": "Sovereign's Wrath",
+            "nameT": "君主之怒",
             "perks": [
                 {
                     "name": "Sharpened",
@@ -17739,6 +17888,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/SpireOfDawn.png",
             "name": "Spire of Dawn",
+            "nameT": "尖塔",
             "perks": [
                 {
                     "name": "Cunning",
@@ -17766,7 +17916,7 @@
                     }
                 },
                 {
-                    "description": "{{chanceTwiceHit}}% chance for attacks to hit twice.",
+                    "description": "rezakiriUeDescription",
                     "name": "HitTwice",
                     "powerSurged": true,
                     "values": {
@@ -17786,6 +17936,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersCries.png",
             "name": "Stalker's Cries",
+            "nameT": "日蝕",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -17815,7 +17966,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -17837,6 +17988,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersMercy.png",
             "name": "Stalker's Mercy",
+            "nameT": "假意的憐憫",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -17866,7 +18018,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -17888,6 +18040,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersPrice.png",
             "name": "Stalker's Price",
+            "nameT": "虚空的觸碰",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -17917,7 +18070,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -17939,6 +18092,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersScorn.png",
             "name": "Stalker's Scorn",
+            "nameT": "温柔的暴虐",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -17968,7 +18122,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -17990,6 +18144,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersSpike.png",
             "name": "Stalker's Spike",
+            "nameT": "扭曲的良知",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -18019,7 +18174,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -18041,6 +18196,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersStrike.png",
             "name": "Stalker's Strike",
+            "nameT": "未知的撕咬",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -18070,7 +18226,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -18092,6 +18248,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/riftstalker/StalkersTrap.png",
             "name": "Stalker's Trap",
+            "nameT": "收斂的惡意",
             "perks": [
                 {
                     "name": "Assassin's Frenzy",
@@ -18121,7 +18278,7 @@
                     }
                 },
                 {
-                    "description": "Dealing damage has a chance (based on damage dealt) to generate a shadow orb that increases damage dealt by {{damage}}% for {{damageTime}} seconds. If {{orbsMinCount}} or more orbs are present, the bonus doubles.",
+                    "description": "riftstalkerUeDescription",
                     "name": "DamageShadowOrbs",
                     "powerSurged": true,
                     "values": {
@@ -18143,6 +18300,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormBlades.png",
             "name": "Storm Blades",
+            "nameT": "風牙鐮",
             "perks": [
                 {
                     "name": "Energized",
@@ -18171,7 +18329,7 @@
                     }
                 },
                 {
-                    "description": "After dodging through an attack, your attacks gain {{bonus}}% bonus meter for +{{bonusTime}} seconds",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeMeterGain",
                     "powerSurged": true,
                     "values": {
@@ -18192,6 +18350,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormBreakers.png",
             "name": "Storm Breakers",
+            "nameT": "麟籠手",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -18219,7 +18378,7 @@
                     }
                 },
                 {
-                    "description": "After dodging though an attack, extend Mantra timeout by {{bonusTime}} seconds",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeExtendMantra",
                     "powerSurged": true,
                     "values": {
@@ -18239,6 +18398,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormCutter.png",
             "name": "Storm Cutter",
+            "nameT": "風雷戟",
             "perks": [
                 {
                     "name": "Energized",
@@ -18267,7 +18427,7 @@
                     }
                 },
                 {
-                    "description": "After dodging through an attack, your attacks gain {{bonus}}% bonus meter for +{{bonusTime}} seconds",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeMeterGain",
                     "powerSurged": true,
                     "values": {
@@ -18288,6 +18448,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormHammer.png",
             "name": "Storm Hammer",
+            "nameT": "閃雷錘",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -18315,7 +18476,7 @@
                     }
                 },
                 {
-                    "description": "After dodging through an attack, reload {{ammo}} aethercharged ammo",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeReload",
                     "powerSurged": true,
                     "values": {
@@ -18335,6 +18496,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormPike.png",
             "name": "Storm Pike",
+            "nameT": "風王槍",
             "perks": [
                 {
                     "name": "Energized",
@@ -18363,7 +18525,7 @@
                     }
                 },
                 {
-                    "description": "After dodging through an attack, your attacks gain {{bonus}}% bonus meter for +{{bonusTime}} seconds",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeMeterGain",
                     "powerSurged": true,
                     "values": {
@@ -18384,6 +18546,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormShooters.png",
             "name": "Storm Shooters",
+            "nameT": "雷暴",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -18425,6 +18588,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/stormclaw/StormSword.png",
             "name": "Storm Sword",
+            "nameT": "風切丸",
             "perks": [
                 {
                     "name": "Energized",
@@ -18453,7 +18617,7 @@
                     }
                 },
                 {
-                    "description": "After dodging through an attack, your attacks gain {{bonus}}% bonus meter for +{{bonusTime}} seconds",
+                    "description": "stormclawUeDescription",
                     "name": "DodgeMeterGain",
                     "powerSurged": true,
                     "values": {
@@ -18474,6 +18638,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/SurgeProjectors.png",
             "name": "Surge Projectors",
+            "nameT": "電涌迸發",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -18501,7 +18666,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "thunderdeepUeDescription",
                     "name": "HeadDamage",
                     "powerSurged": true,
                     "values": {
@@ -18550,6 +18715,7 @@
             "elemental": "Blaze",
             "icon": "/assets/icons/weapons/phaelanx/TalonsOfTheFirebird.png",
             "name": "Talons of the Firebird",
+            "nameT": "掠月鐮",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -18580,7 +18746,7 @@
                     }
                 },
                 {
-                    "description": "Attack a Behemoth part to lock onto it and load a homing missile. Missile deals {{damageMissile}} damage and increases the\ndamage of every other missile in the volley by {{damageMissileVolley}}. Deal damage to load up to a maximum of {{maxMissiles}} additional missiles.\nDodging fires all loaded missiles on the locked-on part. {{cooldown}} second cooldown.",
+                    "description": "phaelanxUeDescription",
                     "name": "PhaelanxLegendaryAbility",
                     "powerSurged": true,
                     "values": {
@@ -18640,6 +18806,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/TemporalMechanics.png",
             "name": "Temporal Mechanics",
+            "nameT": "飛梭",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -18789,6 +18956,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/rezakiri/TheGodhand.png",
             "name": "The Godhand",
+            "nameT": "藍圖：神之手",
             "perks": [
                 {
                     "name": "Savagery",
@@ -18830,6 +18998,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/TheGovernor.png",
             "name": "The Governor",
+            "nameT": "統御者",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -18857,7 +19026,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "thunderdeepUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -18877,6 +19046,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/TheHunger.png",
             "name": "The Hunger",
+            "nameT": "藍圖：渇望",
             "perks": [
                 {
                     "name": "Ragehunter",
@@ -18914,6 +19084,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/TheTwinSuns.png",
             "name": "The Twin Suns",
+            "nameT": "雙子烈陽",
             "perks": [
                 {
                     "name": "Evasive Fury",
@@ -18987,6 +19158,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/chronovore/TheWeepingHours.png",
             "name": "The Weeping Hours",
+            "nameT": "破空刃翼",
             "power": {
                 "base": 100,
                 "powerSurged": 120
@@ -19015,6 +19187,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/thunderdeep/ThrowingSparks.png",
             "name": "Throwing Sparks",
+            "nameT": "雷鳴",
             "perks": [
                 {
                     "name": "Aetheric Evasion",
@@ -19042,7 +19215,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "thunderdeepUeDescription",
                     "name": "HeadDamage",
                     "powerSurged": true,
                     "values": {
@@ -19062,6 +19235,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingBlade.png",
             "name": "Thundering Blade",
+            "nameT": "狂雷剃刀",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19089,7 +19263,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19109,6 +19283,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingBolts.png",
             "name": "Thundering Bolts",
+            "nameT": "狂雷拳套",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19136,7 +19311,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19156,6 +19331,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingCutters.png",
             "name": "Thundering Cutters",
+            "nameT": "狂雷雙刃",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19183,7 +19359,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19203,6 +19379,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingGuns.png",
             "name": "Thundering Guns",
+            "nameT": "雷霆",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19230,7 +19407,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19250,6 +19427,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingMaul.png",
             "name": "Thundering Maul",
+            "nameT": "狂雷之錘",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19277,7 +19455,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19297,6 +19475,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingScythe.png",
             "name": "Thundering Scythe",
+            "nameT": "狂雷巨斧",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19324,7 +19503,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Heads",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19344,6 +19523,7 @@
             "elemental": "Shock",
             "icon": "/assets/icons/weapons/drask/ThunderingSpear.png",
             "name": "Thundering Spear",
+            "nameT": "狂雷尖刺",
             "perks": [
                 {
                     "name": "Aetheric Attunement",
@@ -19371,7 +19551,7 @@
                     }
                 },
                 {
-                    "description": "{{damage}}% damage vs Behemoth Tails",
+                    "description": "draskUeDescription",
                     "name": "TailDamage",
                     "powerSurged": true,
                     "values": {
@@ -19387,6 +19567,7 @@
             "elemental": null,
             "icon": "/assets/icons/weapons/generic/TrainingSword.png",
             "name": "Training Sword",
+            "nameT": "冷鍛練劍",
             "power": {
                 "base": 10
             },
@@ -19403,6 +19584,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/TurmoilOfBoreus.png",
             "name": "Turmoil of Boreus",
+            "nameT": "北風之亂",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -19432,7 +19614,7 @@
                     }
                 },
                 {
-                    "description": "After each charge attack level, generate {{spriteGenerate}} Frost Sprites that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -19483,6 +19665,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsBurden.png",
             "name": "Valomyr's Burden",
+            "nameT": "光之承載",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19510,7 +19693,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19530,6 +19713,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsDecree.png",
             "name": "Valomyr's Decree",
+            "nameT": "光之判決",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19557,7 +19741,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19577,6 +19761,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsHope.png",
             "name": "Valomyr's Hope",
+            "nameT": "光之希望",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19604,7 +19789,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19624,6 +19809,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsInstincts.png",
             "name": "Valomyr's Instincts",
+            "nameT": "閃耀",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19651,7 +19837,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19671,6 +19857,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsRegard.png",
             "name": "Valomyr's Regard",
+            "nameT": "光之凝視",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19698,7 +19885,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19718,6 +19905,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsRevenge.png",
             "name": "Valomyr's Revenge",
+            "nameT": "光之復辟",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19745,7 +19933,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19765,6 +19953,7 @@
             "elemental": "Radiant",
             "icon": "/assets/icons/weapons/valomyr/ValomyrsVisions.png",
             "name": "Valomyr's Visions",
+            "nameT": "光之幻影",
             "perks": [
                 {
                     "name": "Aetherhunter",
@@ -19792,7 +19981,7 @@
                     }
                 },
                 {
-                    "description": "Once charged, your next attack will deal {{damage}} bonus radiant damage. Charge rate increases with current health.",
+                    "description": "valomyrUeDescription",
                     "name": "ValomyrCharge",
                     "powerSurged": true,
                     "values": {
@@ -19812,6 +20001,7 @@
             "elemental": "Umbral",
             "icon": "/assets/icons/weapons/shrowd/VergeOfNight.png",
             "name": "Verge of Night",
+            "nameT": "臨夜",
             "perks": [
                 {
                     "name": "Cunning",
@@ -19851,6 +20041,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/boreus/VoiceOfBoreus.png",
             "name": "Voice of Boreus",
+            "nameT": "雪堆",
             "perks": [
                 {
                     "name": "Conditioning",
@@ -19880,7 +20071,7 @@
                     }
                 },
                 {
-                    "description": "The last {{magazinShots}} shots in your magazine generates Frost Sprites that grant your next attack +{{spriteDamage}} damage and minor frost damage (Max {{spriteMaxSprites}} Sprites)",
+                    "description": "boreusUeDescription",
                     "name": "BoreusFrostSprite",
                     "powerSurged": true,
                     "values": {
@@ -19965,6 +20156,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterBlasts.png",
             "name": "Winter Blasts",
+            "nameT": "冰河",
             "perks": [
                 {
                     "name": "Nimble",
@@ -19994,7 +20186,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20016,6 +20208,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterGale.png",
             "name": "Winter Gale",
+            "nameT": "凜冬之颶",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20045,7 +20238,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20067,6 +20260,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterIce.png",
             "name": "Winter Ice",
+            "nameT": "凜冬之冰",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20096,7 +20290,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20118,6 +20312,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterSquall.png",
             "name": "Winter Squall",
+            "nameT": "凜冬之颮",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20147,7 +20342,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20169,6 +20364,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterVortex.png",
             "name": "Winter Vortex",
+            "nameT": "凜冬之旋",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20198,7 +20394,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20220,6 +20416,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterWinds.png",
             "name": "Winter Winds",
+            "nameT": "凜冬之息",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20249,7 +20446,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
@@ -20271,6 +20468,7 @@
             "elemental": "Frost",
             "icon": "/assets/icons/weapons/skraev/WinterWolves.png",
             "name": "Winter Wolves",
+            "nameT": "凜冬之狼",
             "perks": [
                 {
                     "name": "Nimble",
@@ -20300,7 +20498,7 @@
                     }
                 },
                 {
-                    "description": "After dodging, drop {{mines}} Ice Mines around you on a {{cooldown}} second cooldown that deal {{damage}} damage.",
+                    "description": "skraevUeDescription",
                     "name": "IceMines",
                     "powerSurged": true,
                     "values": {
