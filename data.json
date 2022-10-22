@@ -16654,8 +16654,8 @@
             "type": "Repeater",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16663,7 +16663,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16703,8 +16703,8 @@
             "type": "Axe",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16712,7 +16712,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16752,8 +16752,8 @@
             "type": "Sword",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16761,7 +16761,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16801,8 +16801,8 @@
             "type": "Aether Strikers",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16810,7 +16810,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16850,8 +16850,8 @@
             "type": "War Pike",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16859,7 +16859,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16899,8 +16899,8 @@
             "type": "Hammer",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16908,7 +16908,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
@@ -16948,8 +16948,8 @@
             "type": "Chain Blades",
             "unique_effects": [
                 {
-                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
-                    "descriptionT": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"Once charged, your next weapon swing/shot unleashes a boomerang projectile\\ \\ that frequently deals {{damage}} shock damage to any target hit. Dodging through\\ \\ an attack reduces charge cooldown.\"",
+                    "descriptionT": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": false,
                     "values": {
@@ -16957,7 +16957,7 @@
                     }
                 },
                 {
-                    "description": "\"攻擊時有 {{chanceTwiceHit}}% 機率造成雙重攻擊。\"",
+                    "description": "\"充能完畢，你的下一擊武器揮舞/射擊釋放迴旋飛鏢， 它會頻繁地對擊中的任何目標造成 {{damage}} 點雷電傷害。 完美閃避攻擊會減少充能的冷卻時間。\"",
                     "name": "SahvytBoomerang",
                     "powerSurged": true,
                     "values": {
