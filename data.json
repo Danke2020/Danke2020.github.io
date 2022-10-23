@@ -5522,7 +5522,7 @@
         "Revenant": {
             "ability_icon": "/assets/icons/omnicells/RevenantAbility.png",
             "active": "Drain up to {{healthDrain}} health to enter Revenant state and spawn a Void Orb. For every {{drainedHealth}} health drained, summon an Umbral Tendril that deals {{umbralDamage}} umbral damage. If an Umbral Tendril hits a target, it spawns an additional Void Orb upon impact. Picking up a Void Orb grants a stack of Void Energy,  which gives +{{percentDamage}}% damage and extends Revenant state by {{revenantDurationExtend}}  second. Revenant state lasts for {{revenantTime}} seconds and prevents all healing.",
-            "activeT": "<bold>召喚死寂：</>進入亡魂形態並生成一個虚空寶珠，損失你當前最多[DARKNESS_MAXHEALTHDRAIN]點生命値。{{NL}}  <bold>亡魂形態：</>持續 {{revenantTime}} 秒並阻止所有治療回復。{{NL}}  毎損失 {{drainedHealth}} 點生命値，召喚一個暗影觸鬚，造成 {{umbralDamage}} 點暗影傷害。如果尖刺擊中目標，它會在撞擊時産生一個虚空寶珠。{{NL}}  <bold>虚空寶珠：</>觸摸以獲得虚空能量，獲得+ +{{percentDamage}}% 傷害並將亡魂奘態持續時間延長 {{revenantDurationExtend}} 秒。{{NL}}  <bold>冷卻時間：</> {{revenantTime}} 秒",
+            "activeT": "<bold>召喚死寂：</>進入亡魂形態並生成一個虚空寶珠，損失你當前最多 {{drainedHealth}} 點生命値。{{NL}}  <bold>亡魂形態：</>持續 {{revenantTime}} 秒並阻止所有治療回復。毎損失 {{drainedHealth}} 點生命値，召喚一個暗影觸鬚，造成 {{umbralDamage}} 點暗影傷害。{{NL}}  如果尖刺擊中目標，它會在撞擊時産生一個虚空寶珠。{{NL}}  <bold>虚空寶珠：</>觸摸以獲得虚空能量，獲得 +{{percentDamage}}% 傷害並將亡魂奘態持續時間延長 {{revenantDurationExtend}} 秒。{{NL}}  <bold>冷卻時間：</> {{revenantTime}} 秒",
             "active_values": {
                 "drainedHealth": 100,
                 "healthDrain": 500,
@@ -5545,7 +5545,7 @@
         "Tempest": {
             "ability_icon": "/assets/icons/omnicells/TempestAbility.png",
             "active": "Consume a stack of Velocity to dash ahead and deal {{shockDamage}} shock damage to a nearby target, prioritizing unbroken behemoth parts. For every {{percentMovementIncreaseThreshold}}% increase in movement speed, deal +{{percentDamageToUnbrokenPart}}% damage to unbroken parts. Stacks are refreshed on use. {{cooldown}} second cooldown.",
-            "activeT": "<bold>風暴衝刺：</>消耗一層迅雷向前衝刺並對附近的目標造成 {{shockDamage}} 點雷電傷害。{{NL}}  移動速度毎增加 {{percentMovementIncreaseThreshold}}%，則對未破壞的部位造成+{{percentDamageToUnbrokenPart}}% 傷害。 優先考慮未破壞的巨獸部位。<bold>冷卻時間：</> {{cooldown}} 秒",
+            "activeT": "<bold>風暴衝刺：</>消耗一層迅雷向前衝刺並對附近的目標造成 {{shockDamage}} 點雷電傷害。{{NL}}  移動速度毎增加 {{percentMovementIncreaseThreshold}}%，則對未破壞的部位造成+{{percentDamageToUnbrokenPart}}% 傷害。{{NL}}  優先考慮未破壞的巨獸部位。<bold>冷卻時間：</> {{cooldown}} 秒",
             "active_values": {
                 "cooldown": 4,
                 "percentDamageToUnbrokenPart": 5,
@@ -5556,7 +5556,7 @@
             "name": "Tempest",
             "nameT": "狂飆",
             "passive": "Attack speed +{{percentAttackSpeed}}%. Dodging through an attack grants a stack of Velocity. Each stack lasts {{stackTime}} seconds and increases movement speed by {{percentMovespeed}}%",
-            "passiveT": "+{{percentAttackSpeed}}% 攻擊速度<bold>迅雷：</>完美閃避攻擊後獲得一層迅雷。 +{{percentMovespeed}}%移動速度。毎層疊加持續 {{stackTime}} 秒（最大5層）",
+            "passiveT": "+{{percentAttackSpeed}}% 攻擊速度<bold>迅雷：</> {{NL}} 完美閃避攻擊後獲得一層迅雷。 +{{percentMovespeed}}% 移動速度。毎層疊加持續 {{stackTime}} 秒（最大5層）",
             "passive_values": {
                 "percentAttackSpeed": 10,
                 "percentMovespeed": 3,
@@ -6013,7 +6013,8 @@
                         "Empowered: Deals greatly increased damage and pushes the slayer backwards."
                     ],
                     "part_effectT": [
-                        "它射出一條直線穿透的電擊。傷害隨著距離的增加而減少。"
+                        "它射出一條直線穿透的電擊。傷害隨著距離的增加而減少。",
+                        "強化奘態：造成的傷害大幅增加並利用後坐力向後方位移一小段距離。"
                     ]
                 },
                 "Marksman Chamber": {
@@ -6027,7 +6028,8 @@
                         "Empowered: Damage bonus increased to {{empoweredPercentDamage}}%, and {{empoweredPercentAllyDamage}}% to all allies."
                     ],
                     "part_effectT": [
-                        "發射一槍，對巨獸 區域造成傷害並標記增加對標記區域的傷害"
+                        "發射一道直線射擊，對第一個命中的巨獸造成傷害（強化奘態下 {{damage}} 點）。如果該射擊命中了巨獸的部位，則該部位在 {{damageTime}} 秒内受到的射擊傷害增加 {{percentDamage}}% 。",
+                        "強化奘態：傷害加成提高到 {{empoweredPercentDamage}}%，且隊友攻擊該部位時也會享受 {{empoweredPercentAllyDamage}}% 的傷害強化加成。"
                     ],
                     "values": {
                         "damage": 350,
@@ -6048,7 +6050,8 @@
                         "Empowered: Fires {{missiles}} missiles in a spread."
                     ],
                     "part_effectT": [
-                        "發射一枚爆炸導彈，對命中的第一個目標造成傷害。"
+                        "發射一枚爆炸飛彈，在撞擊位置造成 {{damage}} 點範圍傷害。",
+                        "強化奘態：發射 {{missiles}} 枚飛彈，造成更多傷害。"
                     ],
                     "values": {
                         "damage": 450,
@@ -6068,7 +6071,8 @@
                         "Empowered: Grants the same buff to all Slayers."
                     ],
                     "part_effectT": [
-                        "向近距離發射一個增幅器，觸碰增幅器的獵人獲得15%的攻速提升持續15秒。\n強化奘態：攻速提升同時作用于全體隊友。"
+                        "向近距離發射一個增幅器，觸碰增幅器的獵人獲得  {{percentAttackSpeed}}% 的攻速提升持續 {{attackSpeedTime}} 秒。",
+                        "強化奘態：攻速提升同時作用于全體隊友。"
                     ],
                     "values": {
                         "attackSpeedTime": 15,
@@ -6086,7 +6090,8 @@
                         "Empowered: Deals {{empoweredDamage}} damage when charged and can interrupt Behemoths."
                     ],
                     "part_effectT": [
-                        "發射一顆爆炸地雷，對觸發地雷的巨獸造成400點傷害。一段時間後若地雷未被觸發則會自動充能，造成的傷害提高到700點。\n強化奘態：自動充能後造成的傷害提高到900點，並且具備打斷效果。"
+                        "發射一顆爆炸地雷，對觸發地雷的巨獸造成 {{damage}} 點傷害。一段時間後若地雷未被觸發則會自動充能，造成的傷害提高到 {{increasedDamage}} 點。",
+                        "強化奘態：自動充能後造成的傷害提高到 {{empoweredDamage}} 點，並且具備打斷效果。"
                     ],
                     "values": {
                         "damage": 400,
@@ -6252,7 +6257,7 @@
                         "After dealing damage with the Bladesurge projectile, increase your movement speed by {{percentMovespeed}}% for {{movespeedTime}} seconds. Additionally, after the Bladesurge projectile travels a short distance, the damage is increased by {{percentDamage}}%."
                     ],
                     "part_effectT": [
-                        "造成傷害後，獲得 [MAGNITUDE_PERCENT] 的傷害加成，持續時間 3 秒。可疊加 10 次。"
+                        "造成傷害後，獲得 {{percentMovespeed}}% 的傷害加成，持續時間 3 秒。可疊加 10 次。"
                     ],
                     "values": {
                         "movespeedTime": 10,
