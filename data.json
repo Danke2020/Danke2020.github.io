@@ -2054,6 +2054,7 @@
             "unique_effects": [
                 {
                     "description": "After reviving another player, grant them a Radiant Prism that blocks incoming damage for {{prismTime}} seconds.",
+                    "descriptionT": "復活一名玩家後會賦予其輝光棱鏡，免疫 {{prismTime}} 秒内所受的一切傷害。",
                     "icon": "/assets/icons/abilities/PrismaticGraceBuff.png",
                     "name": "PrismaticGraceRevivePrism",
                     "values": {
@@ -2062,6 +2063,7 @@
                 },
                 {
                     "description": "The first time you take lethal damage, gain a Radiant Prism that blocks incoming damage for {{prismTime}} seconds.",
+                    "descriptionT": "在自身首次遭受致命傷害時，免疫該傷害並獲得一個持續 {{prismTime}} 秒的光輝棱鏡。",
                     "icon": "/assets/icons/abilities/PrismaticGraceBuff.png",
                     "name": "PrismaticGraceLethalDamagePrism",
                     "values": {
@@ -2070,6 +2072,7 @@
                 },
                 {
                     "description": "While active, reviving another player fully restores both players but removes the Prism even at full danger.",
+                    "descriptionT": "復活另一名玩家會消耗輝光棱鏡使救治雙方恢復全部生命値（即便危險度已經達到最大）。 毎局狩獵中只能使用一次，但是擊殺巨獸可以刷新使用次數或5分鐘後重置。",
                     "icon": "/assets/icons/abilities/PrismaticGraceBuff.png",
                     "name": "PrismaticGraceActivePrismRevive"
                 }
@@ -2913,6 +2916,7 @@
             "unique_effects": [
                 {
                     "description": "{{damage}}% of all damage dealt becomes a stamina shield (max {{staminaShieldMax}}) that depletes first when spending stamina. Depletes slowly after {{staminaShieldTime}} seconds not dealing damage.",
+                    "descriptionT": "所造成傷害的 {{damage}}% 將會變成一個體力護盾（最高 {{staminaShieldMax}} 點，任何體力消耗將優先消耗護盾）， 如果 {{staminaShieldTime}} 秒内沒有對巨獸造成傷害則護盾會緩慢消退。",
                     "name": "DamageStaminaShield",
                     "values": {
                         "damage": 1.5,
@@ -3380,6 +3384,7 @@
             "unique_effects": [
                 {
                     "description": "Upon your first death, become a shadow clone that deals {{damage}}% increased damage for {{damageTime}} seconds.",
+                    "descriptionT": "你的初次力竭倒地將被自動復活變成一個影子分身，持續 {{damageTime}} 秒，且持續時間内造成的傷害提高 {{damage}}%。 毎局狩獵中只能使用一次，但是擊殺巨獸可以刷新使用次數或5分鐘後重置。",
                     "icon": "/assets/icons/abilities/TragicEchoBuff.png",
                     "name": "TragicEchoDamageIncrease",
                     "values": {
@@ -5556,7 +5561,7 @@
             "name": "Tempest",
             "nameT": "狂飆",
             "passive": "Attack speed +{{percentAttackSpeed}}%. Dodging through an attack grants a stack of Velocity. Each stack lasts {{stackTime}} seconds and increases movement speed by {{percentMovespeed}}%",
-            "passiveT": "+{{percentAttackSpeed}}% 攻擊速度<bold>迅雷：</> {{NL}} 完美閃避攻擊後獲得一層迅雷。 +{{percentMovespeed}}% 移動速度。毎層疊加持續 {{stackTime}} 秒（最大5層）",
+            "passiveT": "+{{percentAttackSpeed}}% 攻擊速度。<bold>迅雷：</> 完美閃避攻擊後獲得一層迅雷。 毎層疊加 {{percentMovespeed}}% 移動速度。持續 {{stackTime}} 秒（最大5層）",
             "passive_values": {
                 "percentAttackSpeed": 10,
                 "percentMovespeed": 3,
@@ -5736,7 +5741,7 @@
                         "Throw the axe forward, damaging enemies in its path before landing a distance away. Hitting a Behemoth can generate Resolve and will bounce the axe back towards the user."
                     ],
                     "part_effectT": [
-                        "向前投擲獵斧，在投擲過程中對敵人造成傷害。重新使用召回獵斧並進行一次強力縱斬，縱斬命中可以産生陷陣之志效果。"
+                        "把你的斧頭投擲到遠方，對碰撞的第一個巨獸造成傷害並反彈。在它落地之前抓住斧頭可以增加能量。投擲期間霸體，滿能量時命中可以提升陷陣之志等級。"
                     ]
                 },
                 "Relentless Onslaught": {
@@ -5747,7 +5752,7 @@
                         "Hurl the axe forward, damaging enemies in its path. Catch the axe to throw it again up to {{axeThrow}} more times in the next {{axeThrowTime}} seconds, dealing {{axeDamage1}}/{{axeDamage2}}/{{axeDamage3}} damage (further increased by determination). Does not build meter."
                     ],
                     "part_effectT": [
-                        "向前投擲獵斧，飛行路徑上接觸到的第一個巨獸部位造成傷害並且將斧子彈回獵人。投擲命中可以獲得短時間的剛體效果，並將斧子彈回獵人所在的方向。"
+                        "向前投擲獵斧，飛行路徑上接觸到的第一個巨獸部位造成傷害。收回獵斧後能在5秒内再次投擲(最多2次)，並根據陷陣之志等級造成額外傷害(500/600/1000)。"
                     ],
                     "values": {
                         "axeDamage1": 500,
@@ -5879,7 +5884,7 @@
                         "Push off a nearby target with invulnerability, then use primary or secondary attacks to perform a follow up. Primary: A dash attack to the target that consumes {{momentum}} momentum. Secondary: A spinning slam that consumes all momentum and deals greatly increased damage per momentum consumed. (Consume {{momentumIfNoFollow}} momentum if no follow up is performed)"
                     ],
                     "part_effectT": [
-                        "主要攻擊：對目標進行沖刺攻擊，消耗1點星型。次要攻擊：旋轉猛擊，消耗所有星型來回復治療，並且毎消耗一個星型就産生一個150點生命的治療球。處于或被治愈至完全生命値的目標獲得+5%傷害，持續10秒，最多可疊加4次。"
+                        "主要攻擊：對目標進行沖刺攻擊，消耗 {{momentum}} 點星型。次要攻擊：旋轉猛擊，消耗所有星型，並且毎消耗 {{momentumIfNoFollow}} 個星型造成更大的傷害。"
                     ],
                     "values": {
                         "momentum": 1,
@@ -5968,7 +5973,7 @@
                         "Loads ammo into the hammer before releasing, damage and interrupting behemoths."
                     ],
                     "part_effectT": [
-                        "當錘子裝滿彈藥並發射時，它會損壞並干擾巨獸。"
+                        "當錘子裝滿彈藥並發射時，它會損壞並打斷巨獸。"
                     ]
                 },
                 "Ironheart Landbreaker": {
@@ -5979,7 +5984,7 @@
                         "Hold to load ammo into the hammer. Release to create an aether vent that buffs players who step over it, granting them +{{percentDamageReduction}}% damage reduction and up to {{healing}} healing over {{healingTime}} seconds when aethercharged."
                     ],
                     "part_effectT": [
-                        "將彈藥裝填到炮錘中，右鍵原地消耗彈藥製造一個需要拾取的攻強buff。普通彈藥20%攻強，強化彈藥35%攻強。"
+                        "將彈藥裝填到炮錘中，右鍵原地消耗彈藥製造一個需要拾取的減傷buff。減傷比率40%，強化彈藥將額外在30秒内恢復155點血量。"
                     ],
                     "values": {
                         "healing": 155,
@@ -5995,7 +6000,7 @@
                         "Loads ammo into the hammer before releasing, creating an aether vent that buffs players."
                     ],
                     "part_effectT": [
-                        "當錘子裝滿彈藥並發射時，它會損壞並干擾巨獸。"
+                        "將彈藥裝填到炮錘中，右鍵原地消耗彈藥製造一個需要拾取的攻強buff。普通彈藥20%攻強，強化彈藥35%攻強。"
                     ]
                 }
             }
@@ -6257,7 +6262,7 @@
                         "After dealing damage with the Bladesurge projectile, increase your movement speed by {{percentMovespeed}}% for {{movespeedTime}} seconds. Additionally, after the Bladesurge projectile travels a short distance, the damage is increased by {{percentDamage}}%."
                     ],
                     "part_effectT": [
-                        "造成傷害後，獲得 {{percentMovespeed}}% 的傷害加成，持續時間 3 秒。可疊加 10 次。"
+                        "在使用劍涌（Bladesurge）斬出的劍氣造成傷害後會使你的移動速度提高 {{percentMovespeed}}% ，持續 {{movespeedTime}} 秒。 劍涌（Bladesurge）斬出的劍氣在飛行一小段距離後便可以造成2倍傷害。"
                     ],
                     "values": {
                         "movespeedTime": 10,
@@ -6305,7 +6310,7 @@
                         "Activate at full meter to spin, dealing {{damage}} damage constantly to nearby enemies. Grants {{valour}} Valour every {{valourTime}} seconds. Reactivate to slash in a direction, dealing {{reactivateDamage}} + ({{hitBonusDamage}} x number of spin hits) to the first enemy hit."
                     ],
                     "part_effectT": [
-                        "能量全滿時進入解放奘態，增加攻速（20%）且所有攻擊附帶範圍傷害的劍氣（60-80）。可再次按Q進行短暫招架，招架時受到攻擊會立即自動反擊造成800點傷害並且免疫該次攻擊的傷害及硬直，同時産生1點勇氣。 （2秒冷卻時間）"
+                        "能量全滿時按Q進行持續的旋風斬（自帶剛體），毎段斬擊造成 {{damage}} 點基礎傷害。毎 {{valourTime}} 秒獲得 {{valour}} 格勇氣充能。 旋風斬持續時間内再次按Q施展一記強力的縱斬，造成{{reactivateDamage}} + {{hitBonusDamage}}*旋風斬斬擊數的基礎傷害。"
                     ],
                     "values": {
                         "damage": 70,
@@ -6323,7 +6328,7 @@
                         "Activate at full meter to enter Overdrive, gaining +{{percentAttackSpeed}}% attacks speed and causing attacks to deal +{{aoeDamageMin}}-{{aoeDamageMax}} aoe damage. Reactivate to parry and riposte a Behemoth attack, dealing {{damage}} damage and granting {{valour}} Valour when successful ({{valourCooldown}} second cooldown)"
                     ],
                     "part_effectT": [
-                        "能量全滿時進入解放奘態，增加攻速（20%）且所有攻擊附帶範圍傷害的劍氣（60-80）。可再次按Q進行短暫招架，招架時受到攻擊會立即自動反擊造成800點傷害並且免疫該次攻擊的傷害及硬直，同時産生1點勇氣。 （2秒冷卻時間）"
+                        "能量全滿時進入解放奘態，增加攻速{{percentAttackSpeed}}% 且所有攻擊附帶範圍傷害的劍氣（{{aoeDamageMin}}-{{aoeDamageMax}}）。 可再次按Q進行短暫招架，招架時受到攻擊會立即自動反擊造成 {{damage}} 點傷害並且免疫該次攻擊的傷害及硬直，同時産生 {{valour}} 點勇氣。 ({{valourCooldown}} 秒冷卻時間）"
                     ],
                     "values": {
                         "aoeDamageMax": 80,
@@ -6342,7 +6347,7 @@
                         "Activate at full meter to enter Overdrive, gaining +{{percentAttackSpeed}}% attack speed and causing attacks to deal +{{aoeDamageMin}}-{{aoeDamageMax}} aoe damage. Grants {{valour}} Valour immediately and then {{valourRegen}} Valour every {{valourTime}} seconds. Reactivate to dash in a direction (Costs {{valourCost}} Valour)."
                     ],
                     "part_effectT": [
-                        "能量全滿時進入解放奘態，增加攻速（20%）且所有攻擊附帶範圍傷害的劍氣（60-80）。可再次按Q進行短暫招架，招架時受到攻擊會立即自動反擊造成800點傷害並且免疫該次攻擊的傷害及硬直，同時産生1點勇氣。 （2秒冷卻時間）"
+                        "能量全滿時進入解放奘態，增加 {{percentAttackSpeed}}% 攻速且所有攻擊附帶範圍傷害的劍氣（{{aoeDamageMin}}-{{aoeDamageMax}} ）， 立即獲得 {{valour}} 點勇氣，然後毎 {{valourTime}} 秒産生 {{valourRegen}} 點勇氣。可再次按Q進行一段突刺（無CD，但是消耗 {{valourCost}} 格勇氣）"
                     ],
                     "values": {
                         "aoeDamageMax": 80,
@@ -6440,7 +6445,7 @@
                         "Press to convert meter into ammo. Hold to spend ammo to fire a missile that deals up to {{damage}} damage based on ammo quality and can interrupt Behemoths."
                     ],
                     "part_effectT": [
-                        "將武器能量轉化為彈藥，長按消耗一枚彈藥製造暴擊光環，為光環内的所有友軍提供10%暴擊率加成，持續時間10秒。 （基于彈藥質量提高+30％爆擊機率）"
+                        "將武器能量轉化為彈藥，長按發射一枚導彈對巨獸造成最多1200點傷害，具有打斷效果。"
                     ],
                     "values": {
                         "damage": 1200
@@ -6454,7 +6459,7 @@
                         "Press to convert meter into ammo. Hold to spend ammo and perform a flying lunge attack that deals up to {{damage}} damage based on distance and ammo quality."
                     ],
                     "part_effectT": [
-                        "將武器能量轉化為彈藥，長按消耗一枚彈藥製造暴擊光環，為光環内的所有友軍提供10%暴擊率加成，持續時間10秒。 （基于彈藥質量提高+30％爆擊機率）"
+                        "將武器能量轉化為彈藥，長按進行一次長距離的跳躍攻擊，根據彈藥質量和跳躍距離最多造成1500點傷害。"
                     ],
                     "values": {
                         "damage": 1500
@@ -19145,6 +19150,7 @@
             "unique_effects": [
                 {
                     "description": "Channel a beam that deals increasing damage, up to {{damage}}%, while it continues to hit a target.",
+                    "descriptionT": "消耗彈藥引導一道光束，對命中的目標造成持續增加的傷害，最多可達到 {{damage}}%。",
                     "icon": "/assets/icons/parts/warpike/specials/TheGodhand.png",
                     "name": "BeamChannelDamage",
                     "values": {
