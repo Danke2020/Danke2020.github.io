@@ -4140,6 +4140,31 @@
                 }
             }
         },
+        "Drop Cell": {
+            "name": "Drop Cell",
+            "nameT": "鍛體",
+            "slot": "Insight",
+            "variants": {
+                "+1 Drop Cell": {
+                    "perks": {
+                        "Drop": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Drop Cell": {
+                    "perks": {
+                        "Drop": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Drop Cell": {
+                    "perks": {
+                        "Drop": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
         "Endurance Cell": {
             "name": "Endurance Cell",
             "nameT": "戰鬥續行",
@@ -4890,6 +4915,31 @@
                 }
             }
         },
+        "Roll Cell": {
+            "name": "Roll Cell",
+            "nameT": "柔術",
+            "slot": "Alacrity",
+            "variants": {
+                "+1 Roll Cell": {
+                    "perks": {
+                        "Roll": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Roll Cell": {
+                    "perks": {
+                        "Roll": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Roll Cell": {
+                    "perks": {
+                        "Roll": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
         "Rushdown Cell": {
             "name": "Rushdown Cell",
             "nameT": "化險爲夷",
@@ -5010,6 +5060,31 @@
                 "+3 Sprinter Cell": {
                     "perks": {
                         "Sprinter": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
+        "Stop Cell": {
+            "name": "Stop Cell",
+            "nameT": "影擊",
+            "slot": "Brutality",
+            "variants": {
+                "+1 Stop Cell": {
+                    "perks": {
+                        "Stop": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Stop Cell": {
+                    "perks": {
+                        "Stop": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Stop Cell": {
+                    "perks": {
+                        "Stop": 3
                     },
                     "rarity": "epic"
                 }
@@ -5425,8 +5500,8 @@
         }
     },
     "misc": {
-        "dauntless_version": "1.11.4",
-        "patchnotes_version_string": "1-11-4"
+        "dauntless_version": "1.22.4",
+        "patchnotes_version_string": "1-12-4"
     },
     "omnicells": {
         "Artificer": {
@@ -6371,7 +6446,7 @@
                         "Increases damage dealt by {{damageIncreasePierceAndHarvest}}% each time Piercing and Harvesting attacks are alternated. After the fifth alternating attack, increase damage dealt by {{damageIncreaseAfterFifthAttack}}% for {{duration}} seconds. Resets upon combo end."
                     ],
                     "part_effectT": [
-                        "對于毎個有效的擴展，您都會獲得增加傷害和減少傷害的效果。"
+                        "每次穿刺和迴旋交替攻擊時增加 {{damageIncreasePierceAndHarvest}}% 造成的傷害。第五次交替攻擊后，增加 {{damageIncreaseAfterFifthAttack}}% 傷害持續 {{duration}} 秒。連擊結束時重置。"
                     ],
                     "values": {
                         "damageIncreaseAfterFifthAttack": 25,
@@ -6387,7 +6462,7 @@
                         "After a dodge piercing attack, gain +{{percentWoundDamage}}% wound damage for {{woundDamageTime}} seconds."
                     ],
                     "part_effectT": [
-                        "閃避突刺（閃避後左鍵）命中後在 8 秒内獲得創裂傷害 +50%"
+                        "閃避突刺（閃避後左鍵）命中後在 {{woundDamageTime}} 秒内獲得創裂傷害 +{{percentWoundDamage}}%"
                     ],
                     "values": {
                         "percentWoundDamage": 50,
@@ -7732,6 +7807,52 @@
             "name": "Deconstruction",
             "nameT": "構造解析",
             "type": "Brutality"
+        },
+        "Drop": {
+            "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by your maximum stamina.",
+            "descriptionT": "體力恢復速度更快，但是可恢復到的上限降低。",
+            "effects": {
+                "1": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "descriptionT": "體力恢復速度更快，但是可恢復到的上限降低 {{percentReducedMax}}% 。",
+                    "values": {
+                        "percentReducedMax": 15
+                    }
+                },
+                "2": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "values": {
+                        "percentReducedMax": 25
+                    }
+                },
+                "3": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "values": {
+                        "percentReducedMax": 35
+                    }
+                },
+                "4": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "values": {
+                        "percentReducedMax": 50
+                    }
+                },
+                "5": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "values": {
+                        "percentReducedMax": 60
+                    }
+                },
+                "6": {
+                    "description": "Stamina regenerates more quickly, but the amount regenerated is reduced by {{percentReducedMax}}% of your maximum",
+                    "values": {
+                        "percentReducedMax": 75
+                    }
+                }
+            },
+            "name": "Drop",
+            "nameT": "鍛體",
+            "type": "Insight"
         },
         "Endurance": {
             "description": "Increases Max Stamina.",
@@ -9522,6 +9643,52 @@
             "nameT": "無情",
             "type": "Finesse"
         },
+        "Roll": {
+            "description": "Staggering a Behemoth makes your next dodges cost no stamina.",
+            "descriptionT": "擊倒巨獸后可使回避不消耗體力。",
+            "effects": {
+                "1": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "descriptionT": "擊倒巨獸后使下 {{numberDodges}} 次回避不消耗體力。",
+                    "values": {
+                        "numberDodges": 2
+                    }
+                },
+                "2": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "values": {
+                        "numberDodges": 3
+                    }
+                },
+                "3": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "values": {
+                        "numberDodges": 4
+                    }
+                },
+                "4": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "values": {
+                        "numberDodges": 6
+                    }
+                },
+                "5": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "values": {
+                        "numberDodges": 8
+                    }
+                },
+                "6": {
+                    "description": "Staggering a Behemoth makes your next {{numberDodges}} cost no stamina.",
+                    "values": {
+                        "numberDodges": 10
+                    }
+                }
+            },
+            "name": "Roll",
+            "nameT": "柔術",
+            "type": "Alacrity"
+        },
         "Rushdown": {
             "description": "Interrupting a Behemoth restores Stamina and grants Movespeed. At +6 also temporarily removes stamina costs.",
             "descriptionT": "打斷巨獸會恢復耐力並提高移動速度。 在 +6 時還可以暫時消除體力消耗。",
@@ -9825,6 +9992,52 @@
             "name": "Sprinter",
             "nameT": "短跑健將",
             "type": "Alacrity"
+        },
+        "Stop": {
+            "description": "Dodging through a Behemoth's physical attack deals stagger damage to its head.",
+            "descriptionT": "回避巨獸的物理攻擊，會對其頭部造成失衡傷害。",
+            "effects": {
+                "1": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "descriptionT": "回避巨獸的物理攻擊，會對其頭部造成 {{staggerDamage}} 點失衡傷害。",
+                    "values": {
+                        "staggerDamage": 50
+                    }
+                },
+                "2": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "values": {
+                        "staggerDamage": 75
+                    }
+                },
+                "3": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "values": {
+                        "staggerDamage": 100
+                    }
+                },
+                "4": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "values": {
+                        "staggerDamage": 150
+                    }
+                },
+                "5": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "values": {
+                        "staggerDamage": 200
+                    }
+                },
+                "6": {
+                    "description": "Dodging through a Behemoth's physical attack deals {{staggerDamage}} stagger damage to its head.",
+                    "values": {
+                        "staggerDamage": 250
+                    }
+                }
+            },
+            "name": "Stop",
+            "nameT": "影擊",
+            "type": "Brutality"
         },
         "Strategist": {
             "description": "Dodging through Behemoth attacks grants health shields to all Slayers.",
@@ -17189,6 +17402,85 @@
                         "damageMissileVolley": 175,
                         "maxMissiles": 3
                     }
+                }
+            ]
+        },
+        "Silver Sword": {
+            "cells": [
+                "Fortitude",
+                "Brutality"
+            ],
+            "damage": "Slashing",
+            "description": "The sword once used by Silver Nikola, Queen Linnea's ancestor.",
+            "descriptionT": "琳娜王后的祖先，西尔弗·尼古拉曾经用过的剑。",
+            "elemental": "Frost",
+            "icon": "/assets/icons/weapons/generic/SilverSword.png",
+            "name": "Silver Sword",
+            "nameT": "银剑",
+            "perks": [
+                {
+                    "name": "Guardian",
+                    "powerSurged": false,
+                    "value": 1
+                },
+                {
+                    "name": "Guardian",
+                    "powerSurged": true,
+                    "value": 3
+                },
+                {
+                    "name": "Galvanized",
+                    "powerSurged": true,
+                    "value": 3
+                }
+            ],
+            "power": {
+                "base": 10,
+                "powerSurged": 120
+            },
+            "tags": [
+                "Event"
+            ],
+            "type": "Sword",
+            "unique_effects": [
+                {
+                    "description": "+{{percentShield}}% Shield",
+                    "descriptionT": "+{{percentShield}}% 护盾量",
+                    "name": "Passive",
+                    "powerSurged": false,
+                    "title": "被动",
+                    "values": {
+                        "percentShield": 10
+                    }
+                },
+                {
+                    "description": "+{{percentShield}}% Shield{{NL}} +{{percentHealing}}% Healing{{NL}} +{{maxHealth}} Max Health",
+                    "descriptionT": "+{{percentShield}}% 护盾量{{NL}} +{{percentHealing}}% 回复{{NL}} +{{maxHealth}} 最大生命",
+                    "name": "Passive",
+                    "powerSurged": true,
+                    "title": "被动",
+                    "values": {
+                        "maxHealth": 300,
+                        "percentHealing": 30,
+                        "percentShield": 50
+                    }
+                },
+                {
+                    "description": "Using your special continually generates Frost Sprites that grant your next attack +{{damage}} damage and minor frost damage (Max 4 Sprites)",
+                    "descriptionT": "使用你的特殊技能持续生成冰霜精灵，给予你下一次攻击+{{damage}}点伤害和轻微伤害 冰霜伤害(最多4个精灵)",
+                    "name": "UniqueEffect",
+                    "powerSurged": true,
+                    "values": {
+                        "damage": 60
+                    }
+                },
+                {
+                    "description": "Since this is a time limited event weapon and it features a very complex upgrade path with multiple levels we decided to not support all levels except for the maximum one (power surged here) on Dauntless Builder.",
+                    "descriptionT": "由于这是一个限时事件武器，它具有非常复杂的升级路径与多个级别，我们决定仅支持最高等级。",
+                    "icon": "/assets/icons/generic/nope.png",
+                    "name": "Unsupported",
+                    "powerSurged": false,
+                    "title": "Disclaimer"
                 }
             ]
         },
